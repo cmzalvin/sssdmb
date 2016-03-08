@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>表单预览</title>
+    <link href="#springUrl('/resources/css/bootstrap/css/bootstrap.css')" rel="stylesheet" type="text/css"/>
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="#springUrl('/resources/css/bootstrap/css/bootstrap-ie6.css')">
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="#springUrl('/resources/css/bootstrap/css/ie.css')">
+    <![endif]-->
+    <link href="#springUrl('/resources/css/site.css')" rel="stylesheet" type="text/css"/>
+    <style>
+        input{border: 0}
+        textarea{border: 0}
+        table{border: 1}
+    </style>
+</head>
+<body>
+<form>
+    <p style="text-align: center;"><br/></p>
+
+    <p style="text-align: center;"><span style="font-size: 24px;">发布单</span></p>
+    <table class="table table-bordered">
+        <tbody>
+        <tr class="firstRow">
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="73"><span
+                    style="font-family: 宋体, SimSun;">申请人：</span></td>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="209"><input
+                    style="text-align: left; width: 150px;" title="文本框" value="$!login" name="data_1" orgheight=""
+                    orgwidth="150" orgalign="left" orgfontsize="" orghide="0" leipiplugins="text" orgtype="text"/></td>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="385"><span
+                    style="font-family: 宋体, SimSun;">申请时间：$!time</span></td>
+            <td valign="top" style="border-color: rgb(221, 221, 221); word-break: break-all;" width="312"><br/></td>
+        </tr>
+        <tr>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="73"><span
+                    style="font-family: 宋体, SimSun;">项目</span></td>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="209"><span
+                    style="font-family: 宋体, SimSun;">
+                <input style="text-align: left; width: 150px;" title="文本框" value="$!login" name="data_1" orgheight=""
+                        orgwidth="150" orgalign="left" orgfontsize="" orghide="0" leipiplugins="text" orgtype="text"/>
+            </span>
+            </td>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="85"><span
+                    style="font-family: 宋体, SimSun;">复选</span></td>
+            <td valign="top" style="word-break: break-all; border-color: rgb(221, 221, 221);" width="312"><br/></td>
+        </tr>
+        </tbody>
+    </table>
+    <p>发布内容</p>
+
+    <p style="text-align: left;"><textarea title="多行文本" name="data_4" leipiplugins="textarea" value="" orgrich="0"
+                                           orgfontsize="12" orgwidth="600" orgheight="80"
+                                           style="font-size: 12px; width: 752px; height: 90px; margin: 0px;"></textarea>
+    </p>
+
+    <p>签字：</p>
+    <p id="signtext"></p>
+
+    <p><input name="sign" value="通过并签名" type="button"/></p>
+</form>
+<script type="text/javascript" charset="utf-8" src="#springUrl("/resources/js/jquery-1.7.2.min.js?2023")"></script>
+<script type="text/javascript">
+    $(document).on("click", "input[name='sign']", function(){
+        $.ajax({
+            type: 'GET',
+            url: '#springUrl("/approve/autograph")',
+            dataType : 'json',
+            success: function (data) {
+                $("#signtext").text(data.message);
+            },
+            error:function(text){
+                alert(JSON.stringify(text));
+            }
+        });
+    })
+</script>
+</body>
+</html>

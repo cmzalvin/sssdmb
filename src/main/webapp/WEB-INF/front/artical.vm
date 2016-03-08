@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/artical.css"/>
+<title>artical2</title>
+</head>
+<body>
+<div class="P_Header">
+    <div class="head_top">
+        <a class="logo left" href="/"><img src="img/logo.png"></a>
+        <ul class="logo_nav">
+            <li class="right"><a class="on" href="">中文</a>|<a href="">English</a></li>
+            <li class="seach pos_rel"><input class="text" type="text"><img src="img/seach.png"></li>
+        </ul>
+    </div>
+    <div class="nav">
+        <ul class="nav_ul">
+            <li class="nav_li"><a href="index.html">首页</a></li>
+            <li class="nav_li"><a href="#">新闻中心</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="subpage1.html">慧语动态</a></li>
+                    <li><a href="subpage1.html">艺术采访</a></li>
+                    <li><a href="subpage1.html">艺术观察</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">慧语艺术</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="subpage3.html">慧语沙龙</a></li>
+                    <li><a href="subpage3.html">慧语培训</a></li>
+                    <li><a href="subpage3.html">慧语视频</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺术服务</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical1.html">艺术备案</a></li>
+                    <li><a href="artical1.html">艺术家服务</a></li>
+                    <li><a href="artical1.html">数据分析</a></li>
+                    <li><a href="artical1.html">艺术品服务</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺术展示</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical1.html">艺术品</a></li>
+                    <li><a href="artical1.html">艺术衍生品</a></li>
+                    <li><a href="subpage3.html">艺术展览</a></li>
+                    <li><a href="artical1.html">艺术推荐</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺拍拍</a></li>
+            <li class="nav_li"><a href="#">关于慧语</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical.html">慧语简介</a></li>
+                    <li><a href="artical.html">组织架构</a></li>
+                    <li><a href="artical.html">慧语团队</a></li>
+                    <li><a href="artical.html">合作项目</a></li>
+                    <li><a href="artical.html">商业伙伴</a></li>
+                    <li><a href="artical.html">人才理念</a></li>
+                    <li><a href="artical.html">人才招聘</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">登陆注册</a></li>
+        </ul>
+    </div>
+</div>
+<div class="banner">
+    <div id="slideBox" class="slideBox">
+        <div class="bd">
+            <div class="tempWrap">
+            <ul>
+                <li class="slide_1"><img class="bg_img" src="img/banner6.jpg"></li>
+                <li class="slide_2"><img class="bg_img" src="img/banner5.jpg"></li>
+                <li class="slide_3"><img class="bg_img" src="img/banner7.jpg"></li>
+                <li class="slide_4"><img class="bg_img" src="img/banner8.jpg"></li>
+            </ul>
+            </div>
+        </div>
+        <div class="hd">
+            <ul>
+                <li class=""></li>
+                <li class=""></li>
+                <li class="on"></li>
+                <li class=""></li>
+            </ul>
+        </div>
+        <div class="lctrl prev"></div>
+        <div class="rctrl next"></div>
+    </div>
+</div>
+<div class="wid_100 bg_fff">
+    <div class="gyhy wid_12">
+        <h1>关于慧语</h1>
+        <p>北京慧语文化传播有限公司致力于：以发现艺术品的价值为己任；弘扬艺术品的精神内涵、传播艺术品的价值观；构建具有引领创新理念的艺术品研究、学术交流的交互式平台；搭建艺术家与百姓之间的桥梁，创造适合大众消费需求的艺术品。</p>
+        <p>北京慧语文化传播有限公司实现线上线下的交易模式，依托互联网及移动互联网资源，建立艺术品在线交易平台；实现网络与实体销售相结合，为消费者发掘、甄选优秀的艺术品；积极拓展艺术品的国际市场。北京慧语文化传播有限公司将秉承诚信、合作、共赢的企业经营理念，为促进中国艺术品市场健康发展做出积极的贡献。</p>
+    </div>
+</div>
+<div class="wid_100">
+    <div class="cout_list clear">
+        <h1>关于慧语</h1>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div no_mr">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div no_mr">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+        <div class="cp_div">
+            <a href="">
+                <img src="img/cp2.jpg">
+                <h3>最新资讯神马</h3>
+                <p>最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马最新资讯神马</p>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="wid_100 bg_fff">
+    <div class="gyhy lxwm wid_12">
+        <h1>联系我们</h1>
+        <ul>
+            <li><span>邮箱</span>info@huiyu.com</li>
+            <li><span>电话</span>15810385517</li>
+            <li><span>传真</span></li>
+            <li><span>地址</span>海淀区复兴路51号</li>
+        </ul>
+    </div>
+</div>
+<div class="P_Footer">
+    <div class="foot_info">
+    <div class="fcon1 left">
+        <ul>
+            <li><a href="">员工通道</a></li>
+            <li><a href="">合作伙伴</a></li>
+            <li><a href="">法律顾问</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <ul>
+            <li><span>邮箱</span>info@huiyu.com</li>
+            <li><span>电话</span>15810385517</li>
+            <li><span>传真</span></li>
+            <li><span>地址</span>海淀区复兴路51号</li>
+        </ul>
+    </div>
+    <div class="fcon2 right">
+        <ul>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+        </ul>
+    </div>
+    <p class="P_Copy clear">© 2016 huiyu.com 北京慧语文化传播有限公司</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript" src="js/2016.js"></script>
+<script type="text/javascript">
+    $(function(){
+        /* banner轮播 */
+    $(".section").css({width: $(document.body).width()});
+    $(".slideBox .bd li").each(function () {
+        var screenWidth = $(document.body).width();
+        var picWidth = 1903;
+        var $select = $(this);
+        $select.find('.bg_img').css({marginLeft: (screenWidth - picWidth) / 2});
+
+        if ($select.hasClass('slide_1')) {   //按钮1
+            $select.find('.bg_download').css({
+                position: 'absolute',
+                height: '170px',
+                top: '405px',
+                left : (screenWidth / 2) - 444 + 'px'
+            }).show();
+        }
+        if ($select.hasClass('slide_4')) {   //按钮1
+            $select.find('.bg_download').css({
+                position: 'absolute',
+                height: '170px',
+                top: '460px',
+                left : (screenWidth / 2) - 150 + 'px'
+            }).show();
+        }
+    });
+    $(".slideBox").slide({
+        mainCell: ".bd ul",
+        effect: "left", //播放方向
+        autoPlay: true, //自动播放
+        interTime : 3000  //轮播相隔时间，1000=1秒
+    });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>用户注册</title>
+</head>
+<body>
+<form method="post" action="login" onsubmit="return false">
+    登录名:<input type="text" name="loginName"><br>
+    密码:<input type="password" name="password"><br>
+    部门:<select name="roles[0].name">
+        <option value="dev">开发</option>
+        <option value="test">测试</option>
+        <option value="product">产品</option>
+        <option value="leader">技术总监</option>
+        <option value="yunwei">运维</option>
+    </select>
+    签名:<input type="text" name="autograph"><br>
+    部门:<input type="text" name="department"><br>
+    <input id="submit" type="submit">
+</form>
+<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    jQuery(document).on("submit", "form", function(){
+        jQuery.post("#springUrl("/user/save")", jQuery('form').serialize(), function(date){
+            alert(date.message);
+        }, "json");
+    });
+
+</script>
+</body>
+</html>

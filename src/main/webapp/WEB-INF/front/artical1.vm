@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/artical.css"/>
+<title>artical2</title>
+</head>
+<body>
+<div class="P_Header">
+    <div class="head_top">
+        <a class="logo left" href="/"><img src="img/logo.png"></a>
+        <ul class="logo_nav">
+            <li class="right"><a class="on" href="">中文</a>|<a href="">English</a></li>
+            <li class="seach pos_rel"><input class="text" type="text"><img src="img/seach.png"></li>
+        </ul>
+    </div>
+    <div class="nav">
+        <ul class="nav_ul">
+            <li class="nav_li"><a href="index.html">首页</a></li>
+            <li class="nav_li"><a href="#">新闻中心</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="subpage1.html">慧语动态</a></li>
+                    <li><a href="subpage1.html">艺术采访</a></li>
+                    <li><a href="subpage1.html">艺术观察</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">慧语艺术</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="subpage3.html">慧语沙龙</a></li>
+                    <li><a href="subpage3.html">慧语培训</a></li>
+                    <li><a href="subpage3.html">慧语视频</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺术服务</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical1.html">艺术备案</a></li>
+                    <li><a href="artical1.html">艺术家服务</a></li>
+                    <li><a href="artical1.html">数据分析</a></li>
+                    <li><a href="artical1.html">艺术品服务</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺术展示</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical1.html">艺术品</a></li>
+                    <li><a href="artical1.html">艺术衍生品</a></li>
+                    <li><a href="subpage3.html">艺术展览</a></li>
+                    <li><a href="artical1.html">艺术推荐</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">艺拍拍</a></li>
+            <li class="nav_li"><a href="#">关于慧语</a>
+                <div class="sec_nav" style="display:none;">
+                <ul>
+                    <li><a href="artical.html">慧语简介</a></li>
+                    <li><a href="artical.html">组织架构</a></li>
+                    <li><a href="artical.html">慧语团队</a></li>
+                    <li><a href="artical.html">合作项目</a></li>
+                    <li><a href="artical.html">商业伙伴</a></li>
+                    <li><a href="artical.html">人才理念</a></li>
+                    <li><a href="artical.html">人才招聘</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="nav_li"><a href="#">登陆注册</a></li>
+        </ul>
+    </div>
+</div>
+<div class="wid_100 bg_fff">
+    <div class="gyhy artical1 wid_12">
+        <h1>泰特现代艺术馆将开设“艺术家房间”：其中的收藏品有希望在全英国巡展</h1>
+        <h3><span class="left">2016</span><span class="right">分享</span></h3>
+        <p>2016年1月5日凌晨，位于日本东京的筑地市场完成了最后一次新年拍卖。寿司三味的社长连续五年拔得头筹，也为自己在筑地市场的新年拍卖战划下了一个圆满的句号。今年11月，这个经历了80年风雨的鱼市场将搬迁至台场丰洲地区。今后，想吃到全日本最新鲜的生鱼片，就得转战台场了。</p>
+        <img src="img/cp2.jpg">
+        <p>“我来美国有快十年了，也会经常想到家乡的一些小吃，所以就想到了要做北京的煎饼果子”。她是煎饼摊儿的创始人和老板，叫做Yolanda，谈起家乡的美味，谈起开店的初衷，她给出了这样的回答。</p>
+        <p>不难想象，身处国外的留学生，日日吃着西方当地的食物，偶尔空闲，去亚洲超市买一些食材回去自己烧菜，很多时候，家乡的味道，是期盼的美味。</p>
+        <img src="img/cp2.jpg">
+        <p>盛面、摊餅、打鸡蛋、撒葱花、刷上甜面酱和辣椒油，夹上一片自制的薄脆，最后再根据不同的口味撒上肉松或是几片哈尔滨红肠，一份热腾腾、分量十足的煎饼果子就出锅了。为了最大限度还原煎饼的正宗味道，Yolanda和她的合伙人花了很多时间研究——关于面粉的选择、关于秘制酱料的制作、关于食材搭配的选择。</p>
+    </div>
+</div>
+<div class="P_Footer">
+    <div class="foot_info">
+    <div class="fcon1 left">
+        <ul>
+            <li><a href="">员工通道</a></li>
+            <li><a href="">合作伙伴</a></li>
+            <li><a href="">法律顾问</a></li>
+            <li><a href="">加入我们</a></li>
+        </ul>
+        <ul>
+            <li><span>邮箱</span>info@huiyu.com</li>
+            <li><span>电话</span>15810385517</li>
+            <li><span>传真</span></li>
+            <li><span>地址</span>海淀区复兴路51号</li>
+        </ul>
+    </div>
+    <div class="fcon2 right">
+        <ul>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+            <li><a href=""><img src="img/seach.png"></a></li>
+        </ul>
+    </div>
+    <p class="P_Copy clear">© 2016 huiyu.com 北京慧语文化传播有限公司</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/2016.js"></script>
+</body>
+</html>
